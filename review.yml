@@ -1,0 +1,19 @@
+name: Leeds Data Mill
+description: Leeds Data Mill CKAN open-data API live-verification for APIs.json cataloging.
+url: https://raw.githubusercontent.com/api-evangelist/leedsdatamill-org/refs/heads/main/review.yml
+created: '2026-06-04'
+modified: '2026-06-04'
+reviews:
+  - date: '2026-06-04'
+    rating: 4
+    summary: >-
+      Leeds Data Mill runs CKAN and exposes a live, standardized open-data catalog API. The
+      endpoint was probed and returned a valid CKAN JSON response (CKAN version datapress).
+      Because it runs CKAN, the full standard action/search API surface is available and consistent with all other CKAN portals.
+    endpoints:
+      - url: https://leedsdatamill.org/api/3/action/status_show
+        status: 200
+        note: Live CKAN API response verified during inventory probe.
+      - url: https://leedsdatamill.org
+        status: 200
+        note: Portal home.

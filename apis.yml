@@ -41,6 +41,8 @@ apis:
       - type: x-api-endpoint
         url: https://leedsdatamill.org/api/3/action/status_show
 common:
+  - type: DomainSecurity
+    url: security/leedsdatamill-org-domain-security.yml
   - type: Website
     url: https://leedsdatamill.org
   - type: Documentation
